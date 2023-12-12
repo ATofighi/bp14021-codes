@@ -7,6 +7,13 @@ import shapes.Circle;
 public class Main {
     public static void main(String[] args) {
         Shape[] a = new Shape[4];
+        Shape x = new Square(5);
+//        x.getEdge();
+        x.area();
+        x = new Rectangle(2, 3);
+        x.area();
+
+//        a[0] = new Shape();
         a[0] = new Rectangle(4, 6);
         a[1] = new Square(4);
         a[2] = new LongRectangle(10);
